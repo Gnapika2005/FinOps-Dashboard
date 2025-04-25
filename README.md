@@ -37,26 +37,19 @@ To simulate and visualize daily cloud cost data for multiple services using loca
    ```sql
    SELECT date, SUM(amount) as total FROM usage GROUP BY date ORDER BY date;
    ```
-5. Visualize as a bar chart or line graph.
+5. Visualize as a table.
 
 ## 📸 Sample Output
 
-> Insert a screenshot of your Grafana dashboard here (optional)
+> ![Screenshot 2025-04-25 122115](https://github.com/user-attachments/assets/660a48c3-0207-4b43-aa99-b84e4ddc9def)
+
 
 ## ✅ Deliverables
 
 - ✔️ Working Python script
 - ✔️ Database with mock data
 - ✔️ Grafana dashboard showing daily cost trends
-- ✔️ Report PDF with all details
 
-## 📚 Learning Outcomes
 
-- Hands-on experience with Grafana
-- Simulated cost visibility without cloud setup
-- Understanding of FinOps basics and dashboarding
-
----
-
-**Project by:** *[Your Name]*  
+**Project by:** *[P.Gnapika Parameshwari]*  
 **Date:** *April 2025*
